@@ -55,7 +55,7 @@ function fetch_dog(filter = []) {
         loading_img.classList = "hidden";
         new_img.classList = "";
       });
-  }, 1000);
+  }, 500);
 }
 
 
