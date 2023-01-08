@@ -34,7 +34,7 @@ main.appendChild(new_img);
 
 let loading_img = document.createElement('img');
 loading_img.classList = "dog_loader hidden";
-loading_img.src = "./dog_loading.gif";
+loading_img.src = "./assets/dog_loading.gif";
 loading_img.alt = "doggo is loading!";
 
 main.appendChild(loading_img);
@@ -55,7 +55,7 @@ function fetch_dog(filter = []) {
         loading_img.classList = "hidden";
         new_img.classList = "";
       });
-  }, 500);
+  }, 100);
 }
 
 
